@@ -1,0 +1,60 @@
+Postmane Get Request:
+
+GET https://www.googleapis.com/books/v1/volumes?q=Turing
+
+My description:
+
+Request Headers
+
+User-Agent: PostmanRuntime/7.43.0
+- The client software making a request
+
+Accept: */*
+-indicates the client can accept any kind of media type
+
+Postman-Token: a29393ed-b442-451c-b2c8-74c0f979c7bd
+-unique token for request
+
+Host: www.googleapis.com
+-domain name
+
+Accept-Encoding: gzip, deflate, br
+-encoding algorithm
+
+Connection: keep-alive
+-connection can remain open for further requests
+
+Response Headers
+
+Content-Type: application/json; charset=UTF-8
+-response body is in json
+
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+
+response varies based on these headers in the request
+
+Content-Encoding: gzip
+-response body encoding
+
+Date: Fri, 31 Jan 2025 03:13:49 GMT
+-Date and time request was sent
+
+Server: ESF
+-what server software was handling the request
+
+X-XSS-Protection: 0
+- no browser protection filter
+
+X-Frame-Options: SAMEORIGIN
+- prevent page from bieng displayed if not from same origin
+
+X-Content-Type-Options: nosniff
+-no content type sniffing from browser
+
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+-alternative service available for the resource
+
+Transfer-Encoding: chunked
+-how the response body was sent
